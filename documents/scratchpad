@@ -1,0 +1,39 @@
+
+Using Cloud9 with Bitbucket:
+
+Cloning Git repository from BitBucket
+http://support.cloud9ide.com/entries/20667666-cloning-git-repository-from-bitbucket
+
+Push your (git) Cloud9 project to Bitbucket
+http://support.cloud9ide.com/entries/20754818-push-your-git-cloud9-project-to-bitbucket
+
+
+Documentation:
+
+node-jsdoc-toolkit
+https://github.com/p120ph37/node-jsdoc-toolkit
+
+dox
+https://github.com/visionmedia/dox
+
+
+Editor tips and techniques:
+
+Fold Your Code (not currently in the main documentation)
+http://c9.io/site/blog/2011/12/fold-your-code/
+
+jsFIDDLE scratchpad
+http://jsfiddle.net
+
+
+Quirks of JS coding on Cloud9!
+
+Node file read functions it appears require an absolute path, use '__dirname' global and 'path' functions
+
+
+Library
+
+Node.js v0.6.15 Manual & Documentation - http://nodejs.org/api/
+QUnit - http://docs.jquery.com/QUnit
+YUI Library - http://developer.yahoo.com/yui/
+davglass / nodejs-yui3 - https://github.com/davglass/nodejs-yui3
