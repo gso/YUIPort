@@ -1,11 +1,16 @@
 
 Using Cloud9 with Bitbucket:
 
+BitBucket allows free accounts to have both closed as well open projects.
+
 Cloning Git repository from BitBucket
 http://support.cloud9ide.com/entries/20667666-cloning-git-repository-from-bitbucket
 
 Push your (git) Cloud9 project to Bitbucket
 http://support.cloud9ide.com/entries/20754818-push-your-git-cloud9-project-to-bitbucket
+
+git commit --amend -C HEAD  // amend the previous commit keeping the log message and author info
+git push -f  // push the amended commit
 
 
 Documentation:
@@ -19,19 +24,21 @@ https://github.com/visionmedia/dox
 
 Editor tips and techniques:
 
-Fold Your Code (not currently in the main documentation)
+Fold Your Code (not as of May 2012 in the main documentation)
 http://c9.io/site/blog/2011/12/fold-your-code/
 
 jsFIDDLE scratchpad
 http://jsfiddle.net
 
 
-Quirks of JS coding on Cloud9!
+Quirks and notes otherwise codeing on Cloud9:
 
 Node file read functions it appears require an absolute path, use '__dirname' global and 'path' functions
 
+String quoting does not seem to be working from the command line (backslash escape spaces)'
 
-Library
+
+Library:
 
 Node.js v0.6.15 Manual & Documentation - http://nodejs.org/api/
 QUnit - http://docs.jquery.com/QUnit

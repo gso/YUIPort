@@ -17,4 +17,11 @@
         }, YUIUnexpectedValue, "non-valid data test");
     });
     
+    QUnit.test("YUIAssertX.isDate", function() {
+        ok(!YUIAssertX.isDate(new Date(), ""), "valid data test");
+        raises(function() {
+              YUIAssertX.isDate("X", "");
+        }, YUIUnexpectedValue, "non-valid data test");
+    });
+    
 })();
