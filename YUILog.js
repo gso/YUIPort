@@ -1,6 +1,9 @@
 // [Keep Lint happy.  #yp ]
 "use strict";
 
+// [YUIPort, porting Yahoo's YUI code to a standalone base:
+// https://github.com/gso/YUIPort  #yp ]
+
 // [Requires YUILang.js, YUILog_config.js.  #yp ]
 
 // [Namespace may (should) have been created in config file, if not...  #yp ]

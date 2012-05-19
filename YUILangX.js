@@ -1,6 +1,9 @@
 // [Keep Lint happy.  #yp ]
 "use strict";
 
+// [YUIPort, porting Yahoo's YUI code to a standalone base:
+// https://github.com/gso/YUIPort  #yp ]
+
 // Additional functions extending the 'Lang' module.
 
 // Adapted from YUI test/js/DateAssert.js, date comparision is not as

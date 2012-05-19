@@ -127,7 +127,5 @@
             ok(YUILang.isValue(test_data[value_type[i]]), 
                 ["valid data test", value_type[i]].join(": "));
     });
-    
-    QUnit.start();
 
 })();

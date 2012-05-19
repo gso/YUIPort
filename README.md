@@ -63,6 +63,10 @@ Error:
 
 - [`YUIAssert.throwsError`](http://yuilibrary.com/yui/docs/api/classes/Test.Assert.html#method_throwsError)
 
+[**YUIAssertX.js**](./YUIPort/blob/master/YUIAssertX.js) (requires [YUIAssert.js](https://github.com/gso/YUIPort/tree/master/source), [YUILang.js](https://github.com/gso/YUIPort/tree/master))
+- [YUIAssertX.isArray](./YUIPort/blob/master/YUIAssertX.js)
+- [YUIAssertX.isNumber](./YUIPort/blob/master/YUIAssertX.js)
+
 [**YUIArrayAssert.js**](./YUIPort/blob/master/YUIArrayAssert.js) (requires [YUIAssert.js](https://github.com/gso/YUIPort/tree/master/source), ported from [ArrayAssert.js](http://yuilibrary.com/yui/docs/api/classes/Test.ArrayAssert.html))
 
 - [`YUIArrayAssert.contains`](http://yuilibrary.com/yui/docs/api/classes/Test.Assert.html#method_contains)
@@ -225,4 +229,5 @@ which has since become the common logging standard.
 
 ##Changelog
 
+19 May 2012 - 'config.useNativeES5' default to true (YUILog_config.js)  
 06 May 2012 - RC1 uploaded (minor code fixes may follow).

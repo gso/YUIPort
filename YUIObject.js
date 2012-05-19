@@ -1,6 +1,9 @@
 // [Keep Lint happy.  #yp ]
 "use strict";
 
+// [YUIPort, porting Yahoo's YUI code to a standalone base:
+// https://github.com/gso/YUIPort  #yp ]
+
 // [Requires YUILang.js, YUIArray.js ('.hasValue' method).  #yp ]
 
 // [Create namespace, instantiated further on.  #yp ]

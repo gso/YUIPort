@@ -1,4 +1,7 @@
 
+// [YUIPort, porting Yahoo's YUI code to a standalone base:
+// https://github.com/gso/YUIPort  #yp ]
+
 // Defines Y.config options originally declared by YUI in yui.js, 
 // http://yuilibrary.com/yui/docs/api/classes/YUI.html
 

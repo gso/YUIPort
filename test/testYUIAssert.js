@@ -156,6 +156,4 @@
         }, YUIAssertionError, "non-valid data test");
     });
     
-    QUnit.start();
-    
 })();

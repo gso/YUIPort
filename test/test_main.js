@@ -1,5 +1,7 @@
 "use strict";
 
+// Node testrunner
+
 (function() {
 
     var path = require("path"),
@@ -25,6 +27,8 @@
 
     load_script(path.join(__dirname, "..", "YUIAssert.js"));
     load_script(path.join(__dirname, "testYUIAssert.js"));
+    load_script(path.join(__dirname, "..", "YUIAssertX.js"));
+    load_script(path.join(__dirname, "testYUIAssertX.js"));
     load_script(path.join(__dirname, "..", "YUIDateAssert.js"));
     load_script(path.join(__dirname, "testYUIDateAssert.js"));
     load_script(path.join(__dirname, "..", "YUILog_config.js"));
@@ -37,6 +41,8 @@
     load_script(path.join(__dirname, "..", "YUIObjectAssert.js"));
     load_script(path.join(__dirname, "testYUIObjectAssert.js"));    
     load_script(path.join(__dirname, "..", "YUIArrayAssert.js"));
-    load_script(path.join(__dirname, "testYUIArrayAssert.js"));    
+    load_script(path.join(__dirname, "testYUIArrayAssert.js"));
+    
+    QUnit.start();
 
 })();
