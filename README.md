@@ -4,8 +4,8 @@
 This project meets a need for lightweight standalone cross platform Javascript 
 assert and logging tools. 
 Both of these techniques can be used to reduce 
-the necessity to use a debugger and hence saving time in developing applications
- (e.g., a typical use being to routinely check 
+the necessity for a debugger and hence saving time in developing applications
+ (e.g., typically routinely checking 
 the validity of arguments passed to functions).
 
 The functions themselves have been ported across from Yahoo's [YUI framework](http://yuilibrary.com/)
