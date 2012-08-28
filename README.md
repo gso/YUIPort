@@ -14,7 +14,7 @@ with as few changes to the original code as has been possible
 
 Note when using these functions:
 
-* the results of passing non-valid arguments are (largely) undefined
+* the results of passing non-valid arguments are undefined
 * the project is currently at release candidate status -- while all functions 
 have received some testing, this was by no means a comprehensive 
 testing of every fork in the code, bugs conceivably could have been 
@@ -212,11 +212,17 @@ point, YUI 3.5.1.
 Assert libraries:
 
 [assert.js](https://github.com/Jxck/assert) - standalone port of [node assert functions](http://nodejs.org/api/assert.html)  
-[jShould](https://github.com/eliperelman/jShould) - QUnit extension  
 [should.js](https://github.com/visionmedia/should.js) - node library  
 [expect.js](https://github.com/LearnBoost/expect.js) - based on should.js, standalone  
 [chai](https://github.com/chaijs/chai) - node and standalone, plugin architecture (inc. JQuery plugin)  
-[expectThat](https://github.com/dmohl/expectThat) - CoffeeScript
+
+Unit testing frameworks:
+
+[expectThat](https://github.com/dmohl/expectThat) - CoffeeScript  
+[jShould](https://github.com/eliperelman/jShould) - QUnit extension  
+[Jasmine](http://pivotal.github.com/jasmine/) - [node module](https://github.com/mhevery/jasmine-node) available with support for CoffeeScript  
+jswiki '[Testing frameworks](https://github.com/bebraw/jswiki/wiki/Testing-frameworks)'  
+Wikipedia '[List of unit testing frameworks](http://en.wikipedia.org/wiki/List_of_unit_testing_frameworks#JavaScript)'  
 
 Log libraries:
 
@@ -225,15 +231,12 @@ Log libraries:
 [JavaScript Debug](http://benalman.com/projects/javascript-debug-console-log/) - wrapper for console.log  
 [console.log-wrapper](https://github.com/cpatik/console.log-wrapper) - console.log wrapper
 
-The concept of logging was popularized by Apache’s Log4J package for Java 
-which has since become the common logging standard.
-
-Javascript testing frameworks:
-
-[jswiki 'Testing frameworks'](https://github.com/bebraw/jswiki/wiki/Testing-frameworks)  
-[Wikipedia 'List of unit testing frameworks'](http://en.wikipedia.org/wiki/List_of_unit_testing_frameworks#JavaScript)
+(The concept of logging was popularized by Apache’s Log4J package for Java which has since become the common logging standard.)
 
 ##Changelog
+
+**28 August 2012**
+- Reference to Jasmine unit testing framework added.
 
 **19 May 2012**
 - 'YUILang.config.useNativeES5' default to true (YUILang_config.js).
