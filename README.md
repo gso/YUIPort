@@ -220,7 +220,8 @@ Unit testing frameworks:
 
 [expectThat](https://github.com/dmohl/expectThat) - CoffeeScript  
 [jShould](https://github.com/eliperelman/jShould) - QUnit extension  
-[Jasmine](http://pivotal.github.com/jasmine/) - [node module](https://github.com/mhevery/jasmine-node) available with support for CoffeeScript  
+[Jasmine](http://pivotal.github.com/jasmine/) - [node module](https://github.com/mhevery/jasmine-node) available with support for CoffeeScript 
+.net magazine [Essential JavaScript: the top five testing libraries](http://www.netmagazine.com/features/essential-javascript-top-five-testing-libraries) 
 jswiki '[Testing frameworks](https://github.com/bebraw/jswiki/wiki/Testing-frameworks)'  
 Wikipedia '[List of unit testing frameworks](http://en.wikipedia.org/wiki/List_of_unit_testing_frameworks#JavaScript)'  
 
@@ -229,11 +230,13 @@ Log libraries:
 [log4javascript](http://log4javascript.org/) - based on log4j  
 [log4js](http://log4js.berlios.de/) - API very similar to log4j  
 [JavaScript Debug](http://benalman.com/projects/javascript-debug-console-log/) - wrapper for console.log  
-[console.log-wrapper](https://github.com/cpatik/console.log-wrapper) - console.log wrapper
-
+[console.log-wrapper](https://github.com/cpatik/console.log-wrapper) - console.log wrapper  
 (The concept of logging was popularized by Apache’s Log4J package for Java which has since become the common logging standard.)
 
 ##Changelog
+
+**22 October 2012**
+- Top 5 unit testing libraries article link added.
 
 **28 August 2012**
 - Reference to Jasmine unit testing framework added.
