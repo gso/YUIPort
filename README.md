@@ -220,8 +220,8 @@ Unit testing frameworks:
 
 [expectThat](https://github.com/dmohl/expectThat) - CoffeeScript  
 [jShould](https://github.com/eliperelman/jShould) - QUnit extension  
-[Jasmine](http://pivotal.github.com/jasmine/) - [node module](https://github.com/mhevery/jasmine-node) available with support for CoffeeScript 
-.net magazine [Essential JavaScript: the top five testing libraries](http://www.netmagazine.com/features/essential-javascript-top-five-testing-libraries) 
+[Jasmine](http://pivotal.github.com/jasmine/) - [node module](https://github.com/mhevery/jasmine-node) available with support for CoffeeScript  
+.net magazine [Essential JavaScript: the top five testing libraries](http://www.netmagazine.com/features/essential-javascript-top-five-testing-libraries)  
 jswiki '[Testing frameworks](https://github.com/bebraw/jswiki/wiki/Testing-frameworks)'  
 Wikipedia '[List of unit testing frameworks](http://en.wikipedia.org/wiki/List_of_unit_testing_frameworks#JavaScript)'  
 
